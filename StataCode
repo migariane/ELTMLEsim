@@ -143,7 +143,7 @@ clear
 			post ests (`rep') (`ATE') (`SE') (`Method')
 			
 			* CVTMLE
-			eltmle Y A w1 w2 w3 w4, cvtmleQg cvfolds(10) elements
+			eltmle Y A w1 w2 w3 w4, cvtmle cvfolds(10) elements
 			local ATE = r(ATEtmle)
 			local SE = r(ATE_SE_tmle)
 			local Method = 6
