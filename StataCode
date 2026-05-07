@@ -57,7 +57,7 @@ clear
 	
 * Create file to hold estimates from the simulation
 	capture postclose ests
-	postfile ests int(repno) float(ATE SE Method) using simests11, replace
+	postfile ests int(repno) float(ATE SE Method) using simests, replace
 	
 	* Start time of simulations
 	scalar t1 = c(current_time)
