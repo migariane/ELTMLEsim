@@ -13,7 +13,7 @@
 clear all
 set more off
 
-local outdir "/Users/MALF/Library/CloudStorage/Dropbox/UGR/CLAUDE/my-project/docs/ELTMLE_paper_revision"
+local outdir "sim"
 local simdir "`outdir'/sim"
 cd "`simdir'"
 
